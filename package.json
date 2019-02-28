@@ -2,6 +2,7 @@
   "name": "Django",
   "private": true,
   "scripts": {
+    "compress": "grunt uglify",
     "pretest": "eslint django/ js_tests/admin/ js_tests/gis/",
     "test": "grunt test --verbose"
   },
@@ -12,6 +13,7 @@
     "eslint": "^0.22.1",
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
-    "grunt-contrib-qunit": "^1.2.0"
+    "grunt-contrib-qunit": "^1.2.0",
+    "grunt-contrib-uglify": "^4.0.0"
   }
 }
